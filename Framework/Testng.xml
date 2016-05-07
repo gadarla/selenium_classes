@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "flight suite">
+<test name="smoke test">
+<classes>
+<class name="testngPackage.Annotation1" />
+<class name="testngPackage.Annotation2" />
+<class name="testngPackage.PreConditions" />
+</classes>
+</test>
+</suite>

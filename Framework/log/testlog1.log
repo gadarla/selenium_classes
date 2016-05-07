@@ -1,0 +1,3 @@
+2016-05-06 17:49:03,428 [main] INFO Annotation1 - we are in open browser logger
+2016-05-06 20:03:07,430 [main] INFO Annotation1 - we are in login method
+2016-05-06 20:03:07,444 [main] ERROR Annotation1 - failed due to unable to present

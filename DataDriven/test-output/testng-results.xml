@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13002" started-at="2016-05-06T00:22:52Z" finished-at="2016-05-06T00:23:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13002" started-at="2016-05-06T00:22:52Z" finished-at="2016-05-06T00:23:05Z">
+      <class name="DataDriven2">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:DataDriven2@4dfa3a9d]" name="openBrowser" is-config="true" duration-ms="6210" started-at="2016-05-05T20:22:52Z" finished-at="2016-05-05T20:22:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="linkTest()[pri:0, instance:DataDriven2@4dfa3a9d]" name="linkTest" duration-ms="6756" started-at="2016-05-05T20:22:58Z" finished-at="2016-05-05T20:23:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTest -->
+      </class> <!-- DataDriven2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

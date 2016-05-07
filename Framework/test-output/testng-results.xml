@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="flight suite" duration-ms="10332" started-at="2016-05-07T00:13:06Z" finished-at="2016-05-07T00:13:17Z">
+    <groups>
+    </groups>
+    <test name="smoke test" duration-ms="10332" started-at="2016-05-07T00:13:06Z" finished-at="2016-05-07T00:13:17Z">
+      <class name="FlightBooking.BookFlight">
+        <test-method status="PASS" signature="bookFlightlMethod()[pri:0, instance:FlightBooking.BookFlight@5a01ccaa]" name="bookFlightlMethod" duration-ms="693" started-at="2016-05-06T20:13:16Z" finished-at="2016-05-06T20:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightlMethod -->
+      </class> <!-- FlightBooking.BookFlight -->
+      <class name="FlightBooking.FlightDetails">
+        <test-method status="PASS" signature="flightDetailMethod()[pri:0, instance:FlightBooking.FlightDetails@47f37ef1]" name="flightDetailMethod" duration-ms="1323" started-at="2016-05-06T20:13:15Z" finished-at="2016-05-06T20:13:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightDetailMethod -->
+      </class> <!-- FlightBooking.FlightDetails -->
+      <class name="FlightBooking.Login">
+        <test-method status="PASS" signature="flightLogin()[pri:0, instance:FlightBooking.Login@1b40d5f0]" name="flightLogin" duration-ms="8261" started-at="2016-05-06T20:13:06Z" finished-at="2016-05-06T20:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightLogin -->
+      </class> <!-- FlightBooking.Login -->
+      <class name="FlightBooking.FlightConfirm">
+        <test-method status="PASS" signature="bookFlightlMethod()[pri:0, instance:FlightBooking.FlightConfirm@71c7db30]" name="bookFlightlMethod" duration-ms="40" started-at="2016-05-06T20:13:17Z" finished-at="2016-05-06T20:13:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookFlightlMethod -->
+      </class> <!-- FlightBooking.FlightConfirm -->
+    </test> <!-- smoke test -->
+  </suite> <!-- flight suite -->
+</testng-results>

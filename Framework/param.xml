@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "flight suite">
+<test name="smoke test">
+<parameter name="adminUserid" value="abcd" />
+<parameter name="pass" value="12345" />
+<classes>
+<class name= "testngPackage.param" />
+</classes>
+</test>
+</suite>

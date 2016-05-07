@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "flight suite" parallel="tests" thread-count="5">
+
+<test name="login_test_firefox">
+<parameters>
+<parameter name ="browser" value="firefox"></parameter>
+<parameter name ="platform" value="WINDOWS"></parameter>
+<parameter name ="remoteurl" value="http://localhost:5566/wd/hub"></parameter>
+</parameters>
+<classes>
+<class name="Grid.GridWithMultipleNodes" />
+</classes>
+</test>
+
+<test name="login_test_chrome">
+<parameters>
+<parameter name ="browser" value="chrome"></parameter>
+<parameter name ="platform" value="ANY"></parameter>
+<parameter name ="remoteurl" value="http://192.168.1.4:5957/wd/hub"></parameter>
+</parameters>
+<classes>
+<class name="Grid.GridWithMultipleNodes" />
+</classes>
+</test>
+
+</suite>

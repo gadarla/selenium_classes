@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="flight suite" duration-ms="8394" started-at="2016-05-07T01:04:05Z" finished-at="2016-05-07T01:04:13Z">
+    <groups>
+    </groups>
+    <test name="login_test_chrome" duration-ms="3427" started-at="2016-05-07T01:04:05Z" finished-at="2016-05-07T01:04:08Z">
+      <class name="Grid.GridWithMultipleNodes">
+        <test-method status="PASS" signature="testLogin(java.lang.String, org.openqa.selenium.Platform, java.lang.String)[pri:0, instance:Grid.GridWithMultipleNodes@5f375618]" name="testLogin" duration-ms="3396" started-at="2016-05-06T21:04:05Z" finished-at="2016-05-06T21:04:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ANY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://192.168.1.4:5957/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- Grid.GridWithMultipleNodes -->
+    </test> <!-- login_test_chrome -->
+    <test name="login_test_firefox" duration-ms="8394" started-at="2016-05-07T01:04:05Z" finished-at="2016-05-07T01:04:13Z">
+      <class name="Grid.GridWithMultipleNodes">
+        <test-method status="PASS" signature="testLogin(java.lang.String, org.openqa.selenium.Platform, java.lang.String)[pri:0, instance:Grid.GridWithMultipleNodes@5cc7c2a6]" name="testLogin" duration-ms="8365" started-at="2016-05-06T21:04:05Z" finished-at="2016-05-06T21:04:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://localhost:5566/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- Grid.GridWithMultipleNodes -->
+    </test> <!-- login_test_firefox -->
+  </suite> <!-- flight suite -->
+</testng-results>

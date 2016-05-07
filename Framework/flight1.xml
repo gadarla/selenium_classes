@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "flight suite">
+<test name="smoke test">
+<classes>
+<class name="testngPackage.Test1" />
+</classes>
+</test>
+</suite>
